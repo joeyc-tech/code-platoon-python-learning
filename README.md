@@ -56,4 +56,4 @@ My goal is to build a solid software engineering portfolio by documenting my pro
 
 ---
 
-*This repository will continue to grow as I complete each week of the Code Platoon curriculum.*
+*This repository will continue to grow as I complete each week of the Code Platoon curriculum.*ß
