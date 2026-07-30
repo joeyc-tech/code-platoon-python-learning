@@ -1,26 +1,59 @@
 # Code Platoon Python Learning
 
-This repository documents my Python learning journey through Code Platoon, including coursework, exercises, notes, and projects.
+Welcome to my Python learning repository! This repository documents my progress through the **Code Platoon Software Engineering** program.
+
+---
+
+## About
+
+I'm building a strong foundation in Python while developing the skills needed for software engineering. This repository contains my weekly coursework, notes, practice exercises, and future projects.
+
+---
 
 ## Repository Structure
 
-- `week01/` — Week 1 exercises
-- `week02/` — Week 2 exercises
-- `week03/` — Week 3 exercises
-- `projects/` — Larger Python projects
-- `notes/` — Course notes and references
+```text
+code-platoon-python/
+├── notes/
+│   └── python-notes.md
+├── projects/
+├── week01/
+├── week02/
+├── week03/
+├── .gitignore
+└── README.md
+```
 
-## Current Progress
+---
 
-### Week 1
-- Python setup in Visual Studio Code
-- Running Python files through the terminal
-- Basic print statements
-- Git and GitHub workflow
+## Weekly Progress
 
-## Goals
+| Week | Topics | Status |
+|------|--------|--------|
+| Week 1 | Python Fundamentals | ✅ Complete |
+| Week 2 | Coming Soon | ⏳ |
+| Week 3 | Coming Soon | ⏳ |
 
-- Build strong Python fundamentals
-- Write clean, readable code
-- Track my progress throughout Code Platoon
-- Create portfolio-ready projects
+---
+
+## Skills Learned So Far
+
+- Python Fundamentals
+- Variables
+- Data Types
+- Strings
+- String Methods
+- String Slicing
+- Functions
+- Git
+- GitHub
+
+---
+
+## Goal
+
+My goal is to build a solid software engineering portfolio by documenting my progress throughout Code Platoon and creating projects that demonstrate my growth as a developer.
+
+---
+
+*This repository will continue to grow as I complete each week of the Code Platoon curriculum.*
