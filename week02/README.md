@@ -1,9 +1,16 @@
 # Week 2: Python Fundamentals
 
-During Week 2, I practiced lists, dictionaries, Boolean operators, and conditional statements. I also completed a group coding challenge that generates a boarding pass.
+During Week 2, I expanded my Python fundamentals by working with lists, dictionaries, loops, Boolean operators, conditionals, and user input. I also completed several coding challenges while organizing my projects into topic-based folders.
 
 ## Topics Covered
-
+Lists
+- Dictionaries
+- While Loops
+- For Loops
+- Enumerate
+- Boolean Operators
+- Conditional Statements
+- User Input
 - Creating and modifying lists
 - Accessing list elements by index
 - Adding elements with `.append()`, `.insert()`, and `.extend()`
@@ -17,18 +24,31 @@ During Week 2, I practiced lists, dictionaries, Boolean operators, and condition
 - Making decisions with `if`, `elif`, and `else`
 - Combining conditions with `and` and `in`
 
-## Exercises
 
-- `01_days_of_week.py` — Add days to a list
-- `02_itinerary.py` — Build and update a travel itinerary
-- `03_remove_list_elements.py` — Remove list elements by index and value
-- `04_boarding_pass.py` — Create a boarding pass with a function
-- `05_list_review.py` — Review list insertion, slicing, and index lookup
-- `06_dictionary_basics.py` — Create, access, update, and delete dictionary values
-- `07_dictionary_challenges.py` — Practice modifying a student dictionary
-- `08_boolean_operators.py` — Combine comparisons with `and`
-- `09_conditional_examples.py` — Practice conditional branches
-- `10_conditional_challenges.py` — Complete temperature, score, grade, driving, and weekend challenges
+## Project Organization
+
+### Dictionaries
+- Dictionary Basics
+- Dictionary Challenges
+
+### Lists
+- List Review
+- List Challenges
+
+### Loops
+- While Loops
+- For Loops
+- Enumerate
+
+### Operators & Conditionals
+- Operators
+- Conditional Examples
+- Conditional Challenges
+
+### Exercises
+- Days of the Week
+- Travel Itinerary
+- Boarding Pass Generator
 
 ## Running an Exercise
 

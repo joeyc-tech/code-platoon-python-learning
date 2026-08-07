@@ -23,3 +23,24 @@ if (x > 2):
 if (x > 4):
     x = 0;
     print(x)
+
+# # Challenge 1: Create a dictionary named animals with some of the following key-value pairs(please add more)
+
+animals = {
+    "dog" : "barks",
+    "cat" : "meow",
+    "cow" : "moo",
+    "duck" : "quack",
+    "wolf" : "howl",
+    "lion" : "roars",
+    "pig" : "oink, oink",
+    "bird" : "chirp, chirp",
+    
+}
+animal = input("Enter an animal: ").strip().lower()
+
+if animal in animals:
+    print(animals[animal])
+
+else:
+    print("Animal not found!")

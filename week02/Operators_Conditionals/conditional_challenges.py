@@ -43,3 +43,21 @@ day = input("What day is it? ").strip().lower()
 
 if day in ["saturday", "sunday"]:
     print("It's the weekend!")
+
+# Looping with a conditional
+
+scores = {
+    "Alex" : 88,
+    "Jordan" : 64,
+    "Taylor" : 91, 
+    "Casey" : 73,
+    "Morgan" : 58
+}
+for student, score in scores.items():
+    if score >= 90:
+        print(student, "earned an A!")
+    elif score >= 70:
+        print(student, "passed!")
+    else:
+        print(student, "needs improvement.")
+    

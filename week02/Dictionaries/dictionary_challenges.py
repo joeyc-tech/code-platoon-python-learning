@@ -38,3 +38,62 @@ student = {
 #print(student)
 
 
+# Looping with a dictionary
+    # create a dictionary named capitals with the following key-value pairs
+    
+capitals = {
+    "Texas" : "Austin",
+    "Florida" : "Tallahassee",
+    "California" : "Sacramento",
+    "New York" : "Albany"
+}
+for state, capital in capitals.items():
+    print("The capital of", state, "is", capital)
+
+# # Group Challenge
+
+# # Challenge 1: Create a dictionary named animals with some of the following key-value pairs(please add more)
+
+animals = {
+    "dog" : "barks",
+    "cat" : "meow",
+    "cow" : "moo",
+    "duck" : "quack",
+    "wolf" : "howl",
+    "lion" : "roars",
+    "pig" : "oink, oink",
+    "bird" : "chirp, chirp",
+    
+}
+animal = input("Enter an animal: ").strip().lower()
+
+if animal in animals:
+    print(animals[animal])
+
+else:
+    print("Animal not found!")
+
+
+# # Challenge 2: Create an online chatbot for users to access up-to-date menu prices.
+# ## create a dictionary named menu with these items and prices ( add more)
+
+menu = {
+    "burger" : "$8.99",
+    "pizza" : "$12.50",
+    "salad" : "$6.75",
+    "soda" : "$2.00",
+    "hotdog" : "$1.50",
+    "water" : "$1.00",
+    "soft serve" : "$3.50",
+    "chicken fingers" : "$6.25",
+    "steak" : "$14.25",
+    "grilled chicken" : "$12.25",
+    "fries" : "$2.50",
+    }
+item = input("Enter food item: ").strip().lower()
+
+if item in menu:
+    print(menu[item])
+
+else:
+    print("Item not available!")
